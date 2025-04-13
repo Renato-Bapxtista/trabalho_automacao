@@ -60,7 +60,7 @@ Além disso, um **LED** é usado para indicar o estado da conexão Wi-Fi:
 ---
 
 ## 👨‍💻 Desenvolvido por
-- Renato (aluno de Sistemas Embarcados - FATEC Ary Fossen)
+- Renato Batista(aluno de Sistemas Embarcados - FATEC Ary Fossen)
 
 ---
 
