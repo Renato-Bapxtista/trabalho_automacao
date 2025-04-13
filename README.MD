@@ -32,10 +32,7 @@ Além disso, um **LED** é usado para indicar o estado da conexão Wi-Fi:
 
 ---
 
-## 📂 Estrutura do Projeto
 
-
----
 
 ## ⚙️ Funcionalidades
 
