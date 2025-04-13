@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automação Casa</title>
+</head>
+<body>
+    <h1>Comtrole das luzes</h1>
+    <h2>Quarto</h2>
+    <button onclick="controlLED('quarto', 'on')">Ligar</button>
+    <button onclick="controlLED('quarto', 'off')">Desligar</button>
+
+    <h2>Sala</h2>
+    <button onclick="controlLED('sala', 'on')">Ligar</button>
+    <button onclick="controlLED('sala', 'off')">Desligar</button>
+
+    <h2>Cozinha</h2>
+    <button onclick="controlLED('cozinha', 'on')">Ligar</button>
+    <button onclick="controlLED('cozinha', 'off')">Desligar</button>
+
+    <script>
+        function controlLED(ambient, action) {
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "/home?ambient=" + ambient + "&action=" + action, true);
+            xhr.send();
+        }
+    </script>
+</body>
+</html>
