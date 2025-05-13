@@ -4,7 +4,7 @@ Projeto desenvolvido para a **FATEC Ary Fossen** — Curso de **Sistemas Embarca
 
 ---
 
-![Automação Residencial](docs/sistema_automacao.jpg)
+![Automação Residencial](doc/sistema_automacao.jpg)
 
 > *Imagem ilustrativa do sistema (adicione sua imagem no diretório `docs` ou ajuste o caminho).*
 
